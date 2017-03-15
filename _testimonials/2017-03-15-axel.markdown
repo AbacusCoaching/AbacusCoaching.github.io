@@ -1,0 +1,7 @@
+---
+layout: testimonial
+title:  "Axel Roosen"
+date:   2017-03-15 20:17:27 +0100
+student: Axel R.
+---
+Ik denk dat mijn examen erg goed geweest is, het was veel makkelijker dan verwacht.[...] de bijles heeft dus blijkbaar goed geholpen.
