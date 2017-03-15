@@ -1,15 +1,11 @@
 ---
 layout: page
-title: About
+title: Over ons
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+Wij zijn gespecialiseerd in de begeleiding van drie opleidingsonderdelen: informatica, statistiek en wiskunde, zowel op universitair als op hogeschoolniveau. Onze doelgroep zijn vooral studenten sociale en politieke wetenschappen, psychologische en pedagogische wetenschappen, economische wetenschappen (T.E.W., E.W. en handelsingenieur) en industrieel ingenieur.
 
-You can find the source code for the Jekyll new theme at:
-{% include icon-github.html username="jekyll" %} /
-[minima](https://github.com/jekyll/minima)
+Abacuscoaching.be biedt begeleiding op maat aan. Studenten die begeleiding wensen, schetsen vooraf de context van de moeilijkheden: de universiteit of hogeschool, de opleiding, het opleidingsonderdeel. Al deze gegevens laten ons toe om een aangepast studietraject voor te stellen. Dus volledig op maat en volgens de wensen van de student.
 
-You can find the source code for Jekyll at
-{% include icon-github.html username="jekyll" %} /
-[jekyll](https://github.com/jekyll/jekyll)
+Uw vraag wordt individueel behandeld. In samenspraak met u stellen we de inhoud van elke sessie voor, afhankelijk van uw probleem en de vooruitgang die u boekt. U stelt de vragen, wij zorgen voor de antwoorden.
