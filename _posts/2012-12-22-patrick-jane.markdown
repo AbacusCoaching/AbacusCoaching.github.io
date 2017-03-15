@@ -1,13 +1,19 @@
 ---
 layout: post
-title:  "De wiskunde achter speedy pass"
+title:  "Kan Patrick Jane 20 keer na elkaar kop gooien?"
 date:   2012-12-22 15:23:03 +0100
-categories: wiskunde  walibi  'speedy pass'  wachtrij optimaliseren
+categories: statistiek  mentalist  'hypothese testen'
 ---
-Het is al een paar dagen in het nieuws: de speedy pass van Walibi blijft de gemoederen beroeren. Maar hoe zit het met de wiskunde die erachter schuilt?
+In aflevering 14 van het tweede seizoen van The Mentalist gooit Patrick Jane 20 keer een muntstuk op. Na afloop blijkt hij 20 keer kop gegooid te hebben. Kan dit wel met een **eerlijk** muntstuk?
 
-Eos werpt zijn licht op deze kwestie met behulp van de wachtrijtheorie http://eoswetenschap.eu/artikel/de-wiskunde-achter-de-walibi-pas . Dit onderdeel van de wiskunde probeert het verwerken van taken te modelleren en berekent hoe lang een taak in de wachtrij zit totdat die volledig verwerkt is. Belangrijke parameters zijn:
-* duur van de taak: hoe lang duurt het om de taak uit te voeren
-* bezettingsgraad: is de machine (attractie) drukbezet/populair
+Een eerlijk muntstuk betekent dat kop evenveel kans heeft als munt, dus de kans op succes is 1/2. Als we X het aantal keer kop noemen bij 20 keer een muntstuk opgooien dan is X binomiaal verdeeld met n=20, p=1/2 en variantie 20\*1/2\*(1-1/2)=5. We berekenen de kans dat je minstens 20 keer kop hebt.
 
-Met wat formules kan je de gemiddelde wachttijd bepalen. En uit dit artikel blijkt dat de wachttijd voor bezoekers zonder pass oploopt tot het dubbele. Het spreekt voor zich dat als de fractie bezoekers die een pass hebben groter is dan 50%, de pass zijn doel voorbijschiet - de gewone rij wordt dan sneller verwerkt.
+$$
+\begin{array}{rcl}
+P(X \ge 20)&=&P(X = 20) \\\\
+&=&{20 \choose 20}\left( \frac{1}{2} \right)^{20}\\\\
+&=&1*0,00000095367431640625
+\end{array}
+$$
+
+De kans is bijna nul, dus verwerpen we de hypothese dat we met een fair muntstuk te maken hebben.
