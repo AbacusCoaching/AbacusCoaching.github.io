@@ -9,6 +9,7 @@ Volgens een artikel op http://lifehacker.com/5929611/why-itunes-shuffle-isnt-ran
 Veronderstel dat we een playlist hebben van 36 liedjes. Bij willekeurig afspelen heeft elk liedje een gelijke kans omgekozen te worden, hier dus 1/6. Als iTunes op willekeurig staat en 36 liedjes uit deze lijst worden geselecteerd, dan wordt verwacht dat elke nummer gemiddeld 6 keer gespeeld wordt. n=36 pogingen, p=1/6 kans op succes: een typisch voorbeeld van een binomiaal verdeling, en die heeft als gemiddelde n*p=36/6=6.
 
 We kijken nu even wat het resultaat is van 36 liedjes spelen. We krijgen bv deze frequenties van de steekproef:
+
 $$\underline{x}=(x_i)=(7;6;8;6;6;3),\sum_i x_i = 36$$
 
 *Eerste stap* is het formuleren van de nullhypothese: iTunes speelt in een echt willekeurige volgorde liedjes af. Of wiskundig geschreven: het gemiddeld aantal keer dat elk liedje gekozen kan worden is 6. De alternatieve hypothese is de negatie: het gemiddeld aantal keer dat elk liedje gekozen kan worden is verschillend van 6
@@ -27,8 +28,7 @@ $$
 $$
 
 De kans dat een chi kwadraat variabele met 5 vrijheidsgraden groter is dan 2.3333 kan je online berekenen, bv bij deze Chi-Square Calculator - http://www.fourmilab.ch/rpkp/experiments/analysis/chiCalc.html
-$$
-P(\chi^2>2.3333)=0.1987
-$$
+
+$$ P(\chi^2>2.3333)=0.1987$$
 
 *Laatste stap* is het besluit formuleren. Uitgaande van een betrouwbaarheid van 90% kunnen we de nullhypothese niet verwerpen (p-waarde 0.1987). Met andere woorden: iTunes is willekeurig genoeg.
