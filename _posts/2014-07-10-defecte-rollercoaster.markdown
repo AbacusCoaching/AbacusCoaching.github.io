@@ -9,6 +9,7 @@ De Typhoon  in Bobbejaanland viel voor de tweede keer in panne volgens [dit beri
 Het aantal gebeurtenissen in een tijdsinterval worden typisch gemodeleerd door een poison distributie. Als de rollercoaster 1 keer per jaar defect is, dan is het aantal defecten per jaar een poisson proces met gemiddelde 1 defect/jaar. Om het aantal defecten per week voor te stellen, moet je het gemiddelde proportioneel aanpassen. In dit geval is het gemiddelde lambda gelijk aan 1 defect/52 weken.
 
 Nu kunnen we de kans berekenen op 2 defecten in 1 week. Stel X het aantal defecten per week, dan zoeken we P(X=2).
+
 $$
 \begin{array}{rcl}
 P(X=x)&=&\frac{\lambda^x\exp(-\lambda)}{x!}\\\\
