@@ -2,7 +2,7 @@
 layout: post
 title:  "Subway voor de rechter wegens te kleine broodjes?"
 date:   2013-01-25 18:39:03 +0100
-categories:  statistiek  'hypothese testen'  subway
+tags:  [statistiek,hypothese testen,subway]
 ---
 In de metro van 25 januari 2013 stond een artikel met als titel 'Subway voor de rechter wegens te kleine broodjes'. Volgens 2 frequente bezoekers van de broodjeszaak zijn sandwiches systematisch te klein. Maar hoe bewijs je zoiets?
 

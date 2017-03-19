@@ -2,7 +2,7 @@
 layout: post
 title:  "Paninigekte en wiskunde"
 date:   2014-06-27 19:17:50 +0200
-categories: statistiek  wk  panini  sticker
+tags: [statistiek,wk,panini,sticker]
 ---
 Bij elke wereld- of Europese beker zie je hetzelfde fenomeen: de panini stickerboek. Altijd een uitdaging om die ene ontbrekende speler te vinden. Maar hoe zit dat nu: is het eigenlijk wel mogelijk om een volledig boek te verzamelen? Of zijn van bepaalde stickers met opzet minder exemplaren in omloop?
 

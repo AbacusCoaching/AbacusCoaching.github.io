@@ -2,7 +2,7 @@
 layout: post
 title:  "Kan Patrick Jane 20 keer na elkaar kop gooien?"
 date:   2012-12-22 15:23:03 +0100
-categories: statistiek  mentalist  'hypothese testen'
+categories: [statistiek,mentalist,hypothese testen]
 ---
 In aflevering 14 van het tweede seizoen van The Mentalist gooit Patrick Jane 20 keer een muntstuk op. Na afloop blijkt hij 20 keer kop gegooid te hebben. Kan dit wel met een **eerlijk** muntstuk?
 

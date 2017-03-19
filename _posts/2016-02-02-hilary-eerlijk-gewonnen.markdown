@@ -2,6 +2,7 @@
 layout: post
 title:  "Heeft Hillary Clinton eerlijk gewonnen?"
 date:   2016-02-02 13:11:31 +0100
+tags: [statistiek,kans,verkiezingen,USA]
 ---
 Bij de voorverkiezingen in Iowa waren er zes stembureaus waar Clinton en haar concurrent Sanders evenveel stemmen haalden (Bron: [deredactie.be](http://deredactie.be/cm/vrtnieuws/politiek/2.38756?eid=1.2562327)). In dit geval valt de beslissing door een munt op te gooien en viel het muntstuk 6 keer in het voordeel van Hillary. Kan dit wel met een eerlijk muntstuk?
 

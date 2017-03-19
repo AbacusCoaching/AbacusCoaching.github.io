@@ -2,7 +2,7 @@
 layout: post
 title:  "Speelt iTunes willekeurig genoeg?"
 date:   2012-08-06 11:55:05 +0200
-categories: statistiek iTunes "hypothese testen"
+tags: [statistiek,iTunes,hypothese testen]
 ---
 Volgens een artikel op http://lifehacker.com/5929611/why-itunes-shuffle-isnt-random-and-how-to-fix-it zou iTunes niet zo  willekeurig werken als gedacht. Maar hoe kan je dit nu controleren? Met statistiek natuurlijk en meer bepaald met hypothese testen.
 

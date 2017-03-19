@@ -2,7 +2,7 @@
 layout: post
 title:  "De wiskunde achter speedy pass"
 date:   2013-06-12 11:59:08 +0200
-categories: wiskunde  walibi  'speedy pass'  wachtrij optimaliseren
+tags: [wiskunde,walibi,speedy pass,wachtrij,optimaliseren]
 ---
 Het is al een paar dagen in het nieuws: de speedy pass van Walibi blijft de gemoederen beroeren. Maar hoe zit het met de wiskunde die erachter schuilt?
 
