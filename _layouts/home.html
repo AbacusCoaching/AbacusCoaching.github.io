@@ -7,17 +7,106 @@ layout: default
 
   {{ content }}
 
-  <h2>Getuigenissen</h2>
-  <ul class="post-list">
-    {% for post in site.testimonials %}
-      <li>
-          <h2>
-            <a class="post-link" href="{{ post.url | relative_url }}">{{ post.student | escape }}</a>
-          </h2>
-      </li>
-    {% endfor %}
-  </ul>
 
+  <!--Testimonials-->
+  <section id="testimonial" class="section-padding">
+    <div class="container">
+      <div class="row">
+        <div class="header-section text-center">
+          <h2 class="white">Getuigenissen</h2>
+        </div>
+        {% assign posts = site.testimonials | sample:2 %}
+        {% for post in posts %}
+        <div class="col-md-6 col-sm-6">
+          <div class="text-comment">
+            <p class="text-par">{{post.content}}</p>
+            <p class="text-name">{{ post.student | escape }}</p>
+          </div>
+        </div>
+        {% endfor %}
+      </div>
+    </div>
+  </section>
+  <!--/ Testimonial-->
+
+  <!--Courses-->
+  <section id ="courses" class="section-padding">
+    <div class="container">
+      <div class="row">
+        <div class="header-section text-center">
+          <h2>Vakken</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem nesciunt vitae,<br> maiores, magni dolorum aliquam.</p>
+          <hr class="bottom-line">
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4 col-sm-6 padleft-right">
+          <figure class="imghvr-fold-up">
+            <img src="img/course01.jpg" class="img-responsive">
+            <figcaption>
+                <h3>Statistiek</h3>
+                <p>Klinken de woorden toevalsvariabelen, hypotheses, parameterschatting, betrouwbaarheidsintervallen, correlaties, ... als zeer moeilijk? Word je ermee geconfronteerd?
+                  Onze medewerkers zijn experten in statistiek en kunnen deze onderwerpen eenvoudig aanbrengen.</p>
+            </figcaption>
+            <a href="#"></a>
+          </figure>
+        </div>
+        <div class="col-md-4 col-sm-6 padleft-right">
+          <figure class="imghvr-fold-up">
+            <img src="img/course02.jpg" class="img-responsive">
+            <figcaption>
+                <h3>Wiskunde</h3>
+                <p>Wiskunde is de basis van alles, dus die moet zeker vlot in de vingers zitten! Soms zijn enkele zaken niet duidelijk, en dat maakt het moeilijk om andere vakken beter te kunnen volgen.</p>
+            </figcaption>
+            <a href="#"></a>
+          </figure>
+        </div>
+        <div class="col-md-4 col-sm-6 padleft-right">
+          <figure class="imghvr-fold-up">
+            <img src="img/course03.jpg" class="img-responsive">
+            <figcaption>
+                <h3>Informatica</h3>
+                <p>Informatica is de verzamelnaam voor de verschillende aspecten van informatieverwerking. Dat betekent veel theorie en oefeningen in uiteenlopende disciplines.</p>
+            </figcaption>
+            <a href="#"></a>
+          </figure>
+        </div>
+        <div class="col-md-4 col-sm-6 padleft-right">
+          <figure class="imghvr-fold-up">
+            <img src="img/course04.jpg" class="img-responsive">
+            <figcaption>
+                <h3>Course Name</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam atque, nostrum veniam consequatur libero fugiat, similique quis.</p>
+            </figcaption>
+            <a href="#"></a>
+          </figure>
+        </div>
+        <div class="col-md-4 col-sm-6 padleft-right">
+          <figure class="imghvr-fold-up">
+            <img src="img/course05.jpg" class="img-responsive">
+            <figcaption>
+                <h3>Course Name</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam atque, nostrum veniam consequatur libero fugiat, similique quis.</p>
+            </figcaption>
+            <a href="#"></a>
+          </figure>
+        </div>
+        <div class="col-md-4 col-sm-6 padleft-right">
+          <figure class="imghvr-fold-up">
+            <img src="img/course06.jpg" class="img-responsive">
+            <figcaption>
+                <h3>Course Name</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam atque, nostrum veniam consequatur libero fugiat, similique quis.</p>
+            </figcaption>
+            <a href="#"></a>
+          </figure>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--/ Courses-->
   <h2>Blog posts</h2>
   <ul class="post-list">
     {% for post in site.posts %}
