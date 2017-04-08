@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Heeft Hillary Clinton eerlijk gewonnen?"
+title:  "Won Clinton eerlijk?"
 date:   2016-02-02 13:11:31 +0100
 tags: [statistiek,kans,verkiezingen,USA]
 ---

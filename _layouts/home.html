@@ -73,52 +73,36 @@ layout: default
             <a href="#"></a>
           </figure>
         </div>
-        <div class="col-md-4 col-sm-6 padleft-right">
-          <figure class="imghvr-fold-up">
-            <img src="img/course04.jpg" class="img-responsive">
-            <figcaption>
-                <h3>Course Name</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam atque, nostrum veniam consequatur libero fugiat, similique quis.</p>
-            </figcaption>
-            <a href="#"></a>
-          </figure>
-        </div>
-        <div class="col-md-4 col-sm-6 padleft-right">
-          <figure class="imghvr-fold-up">
-            <img src="img/course05.jpg" class="img-responsive">
-            <figcaption>
-                <h3>Course Name</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam atque, nostrum veniam consequatur libero fugiat, similique quis.</p>
-            </figcaption>
-            <a href="#"></a>
-          </figure>
-        </div>
-        <div class="col-md-4 col-sm-6 padleft-right">
-          <figure class="imghvr-fold-up">
-            <img src="img/course06.jpg" class="img-responsive">
-            <figcaption>
-                <h3>Course Name</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam atque, nostrum veniam consequatur libero fugiat, similique quis.</p>
-            </figcaption>
-            <a href="#"></a>
-          </figure>
-        </div>
       </div>
     </div>
   </section>
   <!--/ Courses-->
-  <h2>Blog posts</h2>
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+  <!--work-shop modified to blog post-->
+  <section id="blog" class="section-padding">
+    <div class="container">
+      <div class="row">
+        <div class="header-section text-center">
+          <h2>Blog</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem nesciunt vitae,<br> maiores, magni dolorum aliquam.</p>
+          <hr class="bottom-line">
+        </div>
+        {% assign blogposts = site.posts  %}
+        {% for blog in blogposts limit:3 %}
+          <div class="col-md-4 col-sm-6">
+            <div class="service-box text-center">
+              <div class="icon-text">
+                <h4 class="ser-text">{{ blog.title | escape }}</h4></a>
+                <div>{{blog.content | strip_html | truncatewords:10}}</div>
+                <a class="post-link" href="{{ blog.url | relative_url }}">Lees meer</a>
+              </div>
+            </div>
+          </div>
+        {% endfor %}
+      </div>
+    </div>
+  </section>
+  <!--/ work-shop-->
 
-        <h2>
-          <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
 
   <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
 
