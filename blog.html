@@ -3,42 +3,17 @@ layout: page
 title: Blog
 ---
 
+<div class="container">
+	<div class="row">
+		{% for post in site.posts %}
+		<div class="col-md-6 col-sm-6">
+			<div class="text-comment">
+				<h3 class="text-name">{{ post.title | escape }}</h3>
+				<p class="text-par">{{post.content|strip_html| truncatewords:20}}</p>
+				<a href="{{ post.url | relative_url }}">Lees verder</a>
 
-<!-- HERO  -->
-<section id="hero" class="hero-big" style="background:rgba(0,0,0,0.06);">
-	<div id="page-title" class="wrapper align-center">
-		<h1>Hi there,<br> this is our <strong><em>Journal</em></strong>.</h1>
-	</div> <!-- END #page-title -->
-</section>
-<!-- HERO -->
-
-<!-- PAGEBODY -->
-<section id="page-body">
-	<div class="spacer-big"></div>
-
-	<div class="wrapper">
-
-		<div id="blog-grid" class="isotope-grid minimal-grid-blog blog-container style-column-3 fitrows">
-
-			{% for post in site.posts %}
-			<div class="isotope-item blog-item">
-				<a class="full-link" href="{{ post.url }}"></a>
-				<div class="blog-bg" style="background:url({{ post.header.image }});"></div>
-				<div class="blog-item-inner item-inner">
-					<div class="blog-info">
-						<div class="post-meta">
-							<span class="post-date">{{ post.date | date: "%B %d, %Y" }}</span>
-						</div>
-						<h3 class="post-name">{{ post.title }}</h3>
-						<a class="read-more sr-button-with-arrow" href="{{ post.url }}"><strong>Read More</strong></a>
-					</div>
-				</div>
 			</div>
-			{% endfor %}
-
-		</div> <!-- END .isotope-grid -->
-
-	</div> <!-- END .wrapper -->
-
-</section>
-<!-- PAGEBODY -->
+		</div>
+		{% endfor %}
+	</div>
+</div>

@@ -2,7 +2,7 @@
 layout: post
 title:  "Rollercoaster defect"
 date:   2014-07-10 03:40:45 +0200
-tags: s[tatistiek,poisson,bobbejaanland,rollercoaster]
+tags: [statistiek,poisson,bobbejaanland,rollercoaster]
 ---
 De Typhoon  in Bobbejaanland viel voor de tweede keer in panne volgens [dit bericht in het nieuwsblad](http://www.nieuwsblad.be/article/detail.aspx?articleid=dmf20140708_01171415). Maar hoe uitzonderlijk is dit nu?
 

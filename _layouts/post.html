@@ -12,11 +12,16 @@ src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLor
     <h2>{{ page.title | escape }}</h2>
     <p class="blog-post-meta"><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time>{% if page.author %} • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>{% endif %}</p>
     <h2>{{ page.title | escape }}</h2>
-    <div>
-      {% for tag in page.tags %}
-      <span class="post-meta">{{tag}} </span>
-      {% endfor %}
-    </div>
+    {% if page.tags != null %}
+      <div>
+        Trefwoorden:
+        {% for tag in page.tags %}
+        <span class="post-meta">{{tag}} </span>
+        {% endfor %}
+      </div>
+    {% endif %}
+  </div>
+  <div class="row">
     <div class="post-content" itemprop="articleBody">
       {{ content }}
     </div>
