@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Onbetaald parkeren: raak je ermee weg?"
+title:  "Onbetaald parkeren"
 date:   2017-05-23 21:55:00 +0200
 tags: [statistiek,parkeren,boete,poisson]
 ---
@@ -23,7 +23,7 @@ $$
 \begin{array}{rcl}
 \\P(geen boete)2&=&P(X=0) \\\\
 &=&\frac{e^{-\lambda}\lambda^x}{x!}\\\\
-&=&\frac{e^{-1}\1^0}{0!}\\\\
+&=&\frac{e^{-1}1^0}{0!}\\\\
 &=&\frac{1}{e}\\\\
 &=&0.36787944117
 \end{array}
