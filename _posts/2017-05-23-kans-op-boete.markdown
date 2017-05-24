@@ -19,6 +19,8 @@ geinterpreteerd worden:
 
 In dit geval spreken we over een tijdsinterval. De toevalsvariabele $X$ is het aantal parkeerwachters die je wagen controleren tijdens je uur onbetaald parkeren.
 Poisson heeft 1 parameter $\lambda$, die is in dit geval 1 (1 parkeerwachter per uur).
+
+
 $$
 \begin{array}{rcl}
 \\P(geen boete)2&=&P(X=0) \\\\
