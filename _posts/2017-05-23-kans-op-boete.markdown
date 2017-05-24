@@ -23,7 +23,7 @@ Poisson heeft 1 parameter $\lambda$, die is in dit geval 1 (1 parkeerwachter per
 
 $$
 \begin{array}{rcl}
-\\P(geen boete)2&=&P(X=0) \\\\
+\\P(geen boete)&=&P(X=0) \\\\
 &=&\frac{e^{-\lambda}\lambda^x}{x!}\\\\
 &=&\frac{e^{-1}1^0}{0!}\\\\
 &=&\frac{1}{e}\\\\
