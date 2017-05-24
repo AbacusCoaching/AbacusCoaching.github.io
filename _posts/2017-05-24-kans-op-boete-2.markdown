@@ -39,7 +39,7 @@ En zo verder. Een mooi overzicht met enkele kansen:
 
 |x|	P(X=x)|
 |-|-|
-|0|	0,367879441|oet
+|0|	0,367879441|
 |1|	0,367879441|
 |2|	0,183939721|
 |3|	0,06131324|
