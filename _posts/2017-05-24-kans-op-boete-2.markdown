@@ -8,7 +8,7 @@ In een vorige blogpost hadden we het al over parkeren zonder te betalen. Toen gi
 voor dezelfde overtreding. Maar hoe veranderen de kansen als je meermaals beboet kan worden?
 
 
-De toevalsvariabele X veranderd niet: het is het aantal parkeerwachters die je wagen controleren tijdens je uur onbetaald parkeren.
+De toevalsvariabele X verandert niet: het is het aantal parkeerwachters die je wagen controleren tijdens je uur onbetaald parkeren.
 X is poisson verdeeld met lambda 1 (1 parkeerwachter per uur). De kans op 1 boete is gelijk aan geen boete:
 
 
