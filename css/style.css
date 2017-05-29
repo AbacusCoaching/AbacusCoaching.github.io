@@ -32,6 +32,9 @@ table {
 table, td, th {
     border: 1px solid black;
 }
+th{
+	text-align: center;
+}
 .section-padding{
 	padding: 60px 0px;
 }
