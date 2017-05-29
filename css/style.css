@@ -27,6 +27,7 @@ q:before, q:after {
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
+	margin: 0px auto;
 }
 table, td, th {
     border: 1px solid black;
