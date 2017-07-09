@@ -16,7 +16,7 @@ layout: default
           <h2 class="white">Getuigenissen</h2>
         </div>
         {% assign posts = site.testimonials |reverse%}
-        {% for post in posts | limit:2  %}
+        {% for post in posts limit:2  %}
         <div class="col-md-6 col-sm-6">
           <div class="text-comment">
             <p class="text-par">{{post.content}}</p>
