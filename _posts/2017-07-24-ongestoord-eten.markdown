@@ -7,7 +7,7 @@ tags: [statistiek,eten,poisson]
 Na een lange, vermoeiende werkdag wil je ongestoord eten in de stad. Je trekt hiervoor 2 uur uit en je wil tijdens deze 2 uur geen enkele kennis tegen het lijf lopen. Telkens je naar de stad gaat kom je 2 bekenden per uur tegen het lijf. Wat is de kans dat je wens werkelijkheid wordt?
 
 
-De toevalsvariabele X is het aantal bekenden die je in 2 uur tegenkomt. Dit is -opnieuw- een voorbeeld van de poisson verdeling.
+De toevalsvariabele X is het aantal bekenden die je in 2 uur tegenkomt. Dit is een voorbeeld van de poisson verdeling.
 
 Een eigenschap van poisson is dat het gemiddelde evenredig is het tijdsinterval. Dit betekent dat je in 2 uur gemiddeld 4 bekenden tegen het lijf loopt.
 X is dus poisson verdeeld met lambda 4 (4 bekenden per 2 uur). De kans om ongestoord te kunnen eten:
