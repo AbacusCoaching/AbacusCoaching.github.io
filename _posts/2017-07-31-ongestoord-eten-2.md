@@ -4,7 +4,7 @@ title:  "Ongestoord eten 2"
 date:   2017-07-31 18:34:00 +0200
 tags: [statistiek,eten,poisson]
 ---
-In de vorige blokpost werd de kans berekend om omgestoord te eten in de stad. Een alternatieve manier is gebruik maken
+In de vorige blokpost werd de kans berekend om ongestoord te eten in de stad. Een alternatieve manier is gebruik maken
 van de wachttijd tussen 2 opeenvolgende gebeurtenissen?
 
 _Que?_ Poisson wordt gebruikt om vooral gebeurtenissen in een tijdsinterval voor te stellen. Een eigenschap van poisson
