@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "That's what she said"
-date:   2017-07-31 18:34:00 +0200
+date:   2017-08-05 23:05:00 +0200
 tags: [statistiek,the office US,poisson]
 ---
 In de Amerikaanse remake van The Office gebruikt regional manager Michael Scott te pas en te onpas de catchphrase 'That's what she said'.
