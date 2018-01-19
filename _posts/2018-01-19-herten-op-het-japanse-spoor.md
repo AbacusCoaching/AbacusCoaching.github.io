@@ -10,6 +10,8 @@ In Japan rijden de treinen veel herten omver. Door te toeteren hebben ze dit ter
 is 457 km. Hoeveel kans is er dat je op de bestemming komt zonder dierenleed?
 
 Dit is alweer een poisson proces, deze keer met gemiddeld 7.5/100km . Over een afstand van 457 kilometer wordt het gemiddelde dan 34,275 herten/457 km.
+
+
 $$
 \begin{array}{rcl}
 \\P(0 herten)&=&P(X=0) \\\\
