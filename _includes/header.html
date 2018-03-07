@@ -26,8 +26,13 @@
             {% endif %}
           {% endfor %}
         -->
-        <li><a href="#courses">Vakken</a></li>
-        <li><a href="#blog">Blog</a></li>
+        <!--
+          Only show course anchor on homepage
+        -->
+        {% if page.url == "/" %}
+          <li><a href="#courses">Vakken</a></li>
+        {% endif %}
+        <li><a href="/blog">Blog</a></li>
         </ul>
         </div>
       </div>
