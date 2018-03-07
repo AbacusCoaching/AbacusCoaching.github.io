@@ -3,5 +3,6 @@ layout: testimonial
 title:  "Johan Acke"
 date:   2017-03-15 20:17:27 +0100
 student: Johan A.
+course: Analyse
 ---
 De begeleiding van abacuscoaching bij het berekenen van afgeleide functies, en differentiaalvgl heeft me vooruitgeholpen.

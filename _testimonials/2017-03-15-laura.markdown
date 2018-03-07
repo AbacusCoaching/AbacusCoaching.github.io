@@ -3,5 +3,6 @@ layout: testimonial
 title:  "Laura"
 date:   2017-03-15 20:17:27 +0100
 student: Laura
+course: Statistiek 1 voor psychologen
 ---
 het examen statistiek is gelukt. Ze heeft een 10 behaald en dat is dus voldoende. Dit was nooit gelukt zonder jouw hulp. Daarom willen mijn man en ik je nog eens expliciet bedanken voor deze hulp. Nogmaals 1000x dank, zonder jou was dit niet mogelijk geweest.

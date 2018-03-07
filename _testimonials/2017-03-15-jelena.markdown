@@ -3,5 +3,6 @@ layout: testimonial
 title:  "Jelena Boeckx"
 date:   2017-03-15 20:17:27 +0100
 student: Jelena B.
+course: Java
 ---
 Ik ben geslaagd voor het examen informatica, bedankt voor alle hulp!

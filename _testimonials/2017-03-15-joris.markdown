@@ -3,5 +3,6 @@ layout: testimonial
 title:  "Joris Van Haver"
 date:   2017-03-15 20:17:27 +0100
 student: Joris VH.
+course: Java
 ---
 Ik wil even de man bedanken die enkele keren uitleg gaf ivm Java, [...] hij legde alles zeer goed uit. Uiteindelijk behaalde ik een 12 op het examen, zonder zijn hulp was dit nooit gelukt.
