@@ -6,24 +6,12 @@
   <title>{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
   <meta name="description" content="{{ page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 160 | escape }}">
 
- <!-- Google font -->
-  <link href="https://fonts.googleapis.com/css?family=Lato:700%7CMontserrat:400,600" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Open+Sans|Candal|Alegreya+Sans">
+  <link rel="stylesheet" type="text/css" href="{{"/css/font-awesome.min.css" | relative_url }}">
+  <link rel="stylesheet" type="text/css" href="{{"/css/bootstrap.min.css" | relative_url }}">
+  <link rel="stylesheet" type="text/css" href="{{"/css/imagehover.min.css" | relative_url }}">
+  <link rel="stylesheet" type="text/css" href="{{"/css/style.css" | relative_url }}">
 
-  <!-- Bootstrap -->
-  <link type="text/css" rel="stylesheet" href="/assets/css/bootstrap.min.css"/>
-
-  <!-- Font Awesome Icon -->
-  <link rel="stylesheet" href="/assets/css/font-awesome.min.css">
-
-  <!-- Custom stlylesheet -->
-  <link type="text/css" rel="stylesheet" href="/assets/css/style.css"/>
-
-  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-  <!--[if lt IE 9]>
-  <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
-  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-  <![endif]-->
 
 
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | absolute_url }}">
