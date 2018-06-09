@@ -29,3 +29,14 @@ $$
 $$
 
 Je kan dus op 98280 manieren 5 personen kiezen. Dus de kans dat net deze 5 niet opgenomen worden in de select is 1/98280, zeer klein dus.
+
+**Update** Collega's Morgan en Jeffrey vertelden mij dat 16 spelers zo goed als zeker zijn van de selectie. Dus dan verandert dit probleem in 5 personen kiezen uit 12:
+
+$$
+\begin{array}{rcl}
+\binom{12}{5}&=&\frac{12!}{5!(12-5)!}\\\\
+&=&792
+\end{array}
+$$
+
+De kans wordt dan 1/792, veel groter dus maar nog altijd kleiner dan 0.1 procent.

@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page
 ---
 <script type="text/javascript"
 src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
@@ -18,7 +18,7 @@ MathJax.Hub.Config({
 
 <div class="container" aria-label="Content">
   <div class="row">
-    <h2>{{ page.title | escape }}</h2>
+    <!--<h2>{{ page.title | escape }}</h2> -->
     <p class="blog-post-meta"><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time>{% if page.author %} • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>{% endif %}</p>
     <h2>{{ page.title | escape }}</h2>
     {% if page.tags != null %}
